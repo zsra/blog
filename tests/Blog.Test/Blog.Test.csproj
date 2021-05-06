@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.5" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="Microsoft.CodeCoverage" Version="16.8.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\Blog.Core\Blog.Core.csproj" />
+    <ProjectReference Include="..\..\source\Blog.Infrastructure\Blog.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\source\Blog.Web\Blog.Web.csproj" />
+  </ItemGroup>
+</Project>
